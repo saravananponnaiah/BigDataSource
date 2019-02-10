@@ -1,0 +1,18 @@
+import java.io.FileReader
+import java.io.FileNotFoundException
+
+
+object ScalaFileBasics {
+  def main(args : Array[String]) : Unit = {
+    try {
+      val file = new FileReader("input.txt")
+    } catch {
+      case ex : FileNotFoundException => {
+        println("EXCEPTION: FILE NOT FOUND")
+      }
+      case ex : IndexOutOfBoundsException => {
+        println("EXCEPTION: Index Out of Bound Exception")
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="scala.application">
+<listAttribute key="StepOutExcludePkgsOrClasses"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/demoproject/src/main/spark/com/hadoop/spark/demoproject/SimpleSpark.scala"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="HADOOP_HOME" value="E:\Hadoop\Spark\spark-2.3.1-bin-hadoop2.7"/>
+</mapAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.hadoop.spark.demoproject.SimpleSpark"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="demoproject"/>
+</launchConfiguration>

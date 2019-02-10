@@ -1,0 +1,5 @@
+package com.hadoop.spark.sparkdemo
+
+object FirstWorld {
+  
+}

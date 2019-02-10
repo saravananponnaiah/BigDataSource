@@ -1,0 +1,53 @@
+
+
+object ScalaBasics {
+  def main(args: Array[String]): Unit = {
+    println("Start Scala Program")
+    
+    /*
+    var count=15
+    count = 20
+    
+    val countVal = 100
+    //countVal = 200
+    
+    if (count == 15)
+    {
+      println("Value of count = " + count)      
+    }
+    else
+    {
+      println("Value of count variable = " + count)
+    }
+    
+    for(i <- 1 to 5) {
+      println("Iteration : " + i)
+    }
+       
+    */
+    
+    println("COLLECTIONS - MAP")
+    println("*****************")
+    var mp:Map[String,Int] = Map()
+    mp += ("Key1"->1)
+    mp += ("Key2"->2)
+    mp += ("Key3"->3)
+    
+    println("The keys in map are : " + mp.keys)
+    println("The values in map are : " + mp.values)
+    println("The value in map key Key2 is : " + mp("Key2"))
+    
+    println("COLLECTIONS - LIST")
+    println("******************")
+    var lsWeek:List[String] = List("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+    var lsDept = List("Sales","Marketing","Human Resource","Research","Manufacturing")
+    println("Day 3 of a week : " + lsWeek(3))
+    println("All Departments : " + lsDept)
+    println("Department 3 in the list : " + lsDept(3))
+    
+    
+    
+    
+    
+  }
+}
